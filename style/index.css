@@ -43,3 +43,9 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* custom properties */
+:root {
+  /* ### Primary */
+  --Violet: hsl(257, 40%, 49%);
+  --Magenta: hsl(300, 69%, 71%);
+}

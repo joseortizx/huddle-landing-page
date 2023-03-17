@@ -121,3 +121,44 @@ button {
   border: 1px solid var(--Magenta);
   color: var(--Magenta);
 }
+/* media querys */
+@media (min-width: 630px) {
+  body {
+    margin: 0.5rem 2.5rem;
+    background-image: url(/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  .main section {
+    text-align: left;
+  }
+  .main__mockupsec {
+    flex-shrink: 0;
+  }
+  .main__commsec {
+    padding: 1rem 4rem;
+  }
+  .main__commsec-title {
+    font-size: 3rem;
+  }
+  .main__commsec-paragraph {
+    font-size: 1.2rem;
+  }
+  .footer {
+    justify-content: right;
+    padding: 1rem 2rem;
+  }
+  .footer__btn {
+    height: 3rem;
+    width: 3rem;
+  }
+  .header__nav-img img {
+    width: 15rem;
+  }
+}
